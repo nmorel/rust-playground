@@ -18,7 +18,7 @@ fn main() {
             .read_line(&mut guess)
             .expect("Failed to read line");
 
-        guess = guess.trim().to_string();
+        let guess = guess.trim();
 
         if guess == "quit" {
             println!("Too bad 😥 See you later !");
