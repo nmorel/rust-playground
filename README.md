@@ -1,0 +1,1 @@
+Just a small playground where I learn [Rust](https://doc.rust-lang.org/book/).
